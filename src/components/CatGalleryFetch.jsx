@@ -53,7 +53,7 @@ export const CatGalleryFetch = () => {
                 src={cat.url} 
                 className='card-img-top img-fluid' 
                 alt="Cat" 
-                style={{ objectFit: 'cover', height: '200px', width: '100%' }} 
+                style={{ objectFit: 'cover', height: '400px', width: '100%' }} 
               />
               <div className='card-body d-flex flex-column justify-content-between'>
                 <h5 className='card-title'>Gatito {index + 1}</h5>
